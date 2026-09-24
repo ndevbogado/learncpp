@@ -24,4 +24,11 @@ Estructura para llamar a un TEMPLATE:
 
 [1] www.learncpp.com	https://www.learncpp.com/cpp-tutorial/function-templates/
 
+TEMPLATES para varios template type parameters:
+
+    template<T var1, U var2>
+    auto foo (T var1, U var 2)
+
+# nota: es recomendable utilizar una llamada comun de funciones cuando tenemos un template con return type AUTO
+
 
