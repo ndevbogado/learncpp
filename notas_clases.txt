@@ -13,6 +13,14 @@ Hay tres tipos de TEMPLATES:
     3-	Template template parameters (donde los parametros del template representan un template -
     usados con menos frecuencia)
 
+Estructutra para definir un TEMPLATE:
+
+    template <typename T>
+    T foo(T var){...}
+
+Estructura para llamar a un TEMPLATE:
+    
+    foo<TYPE>(TYPE var)
 
 [1] www.learncpp.com	https://www.learncpp.com/cpp-tutorial/function-templates/
 
