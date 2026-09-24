@@ -1,4 +1,4 @@
-TEMPLATES
+[1] TEMPLATES
 
 Un TEMPLATE es un modelo de funciones o clases que creamos una vez, con parametros genericos. Estos
 parametros recien son definidos cuando se utiliza el TEMPLATE. Esto permite una mayor flexibilidad a
@@ -22,7 +22,6 @@ Estructura para llamar a un TEMPLATE:
     
     foo<TYPE>(TYPE var)
 
-[1] www.learncpp.com	https://www.learncpp.com/cpp-tutorial/function-templates/
 
 TEMPLATES para varios template type parameters:
 
@@ -30,5 +29,14 @@ TEMPLATES para varios template type parameters:
     auto foo (T var1, U var 2)
 
 # nota: es recomendable utilizar una llamada comun de funciones cuando tenemos un template con return type AUTO
+
+[1] www.learncpp.com	https://www.learncpp.com/cpp-tutorial/function-templates/
+
+[2] NON-TYPE TEMPLATE PARAMETERS
+
+Son un tipo especial de parametros para los templates. Son utilizados para pasar constexpr a function templates. Un ejemplo de esto es cuando utilizamos los bitsize: el programa requiere que se
+pase un numero para configurar la cantidad de bits a leer.
+
+[2] www.learncpp.com	https://www.learncpp.com/cpp-tutorial/non-type-template-parameters/
 
 
