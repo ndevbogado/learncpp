@@ -1,0 +1,19 @@
+TEMPLATES
+
+Un TEMPLATE es un modelo de funciones o clases que creamos una vez, con parametros genericos. Estos
+parametros recien son definidos cuando se utiliza el TEMPLATE. Esto permite una mayor flexibilidad a
+la hora de trabajar con secciones de codigo que conservan una estructura muy similar (como lo es el
+OVERLOADING de funciones).
+
+Hay tres tipos de TEMPLATES:
+
+    1-	Type template parameters (donde los parametros del template representan un type)
+    2-	Non type template parameters (donde los parametros del template representan un constexpr
+    value)
+    3-	Template template parameters (donde los parametros del template representan un template -
+    usados con menos frecuencia)
+
+
+[1] www.learncpp.com	https://www.learncpp.com/cpp-tutorial/function-templates/
+
+
